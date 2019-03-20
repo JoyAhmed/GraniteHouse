@@ -5,7 +5,6 @@ E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\bin\Debug\netcor
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\bin\Debug\netcoreapp2.1\GraniteHouse.pdb
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\bin\Debug\netcoreapp2.1\GraniteHouse.Views.dll
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\bin\Debug\netcoreapp2.1\GraniteHouse.Views.pdb
-E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.csprojAssemblyReference.cache
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.csproj.CoreCompileInputs.cache
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.RazorAssemblyInfo.cache
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.RazorAssemblyInfo.cs
@@ -36,5 +35,11 @@ E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcor
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.g.cshtml.cs
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.g.cshtml.cs
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Index.g.cshtml.cs
+E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Create.g.cshtml.cs
+E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_TableButtonPartial.g.cshtml.cs
+E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Edit.g.cshtml.cs
+E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Details.g.cshtml.cs
+E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Index.g.cshtml.cs
+E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Create.g.cshtml.cs
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
 E:\ASP.NET Projects\Complete Projects\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs

@@ -43,5 +43,81 @@ namespace GraniteHouse.Areas.Admin.Controllers
 
             return View(productTypes);
         }
+
+        //GET Edit Action Method
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var productType = await _context.ProductTypes.FindAsync(id);
+
+            if(productType == null)
+            {
+                return NotFound();
+            }
+
+            return View(productType);
+        }
+
+        //POST Edit action method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, ProductTypes productTypes)
+        {
+            if (id!=productTypes.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                _context.Update(productTypes);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(productTypes);
+        }
+
+        //GET Details Action Method
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var productType = await _context.ProductTypes.FindAsync(id);
+
+            if (productType == null)
+            {
+                return NotFound();
+            }
+
+            return View(productType);
+        }
+
+        //POST Details action method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Details(int id, ProductTypes productTypes)
+        {
+            if (id != productTypes.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                _context.Update(productTypes);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(productTypes);
+        }
     }
 }
